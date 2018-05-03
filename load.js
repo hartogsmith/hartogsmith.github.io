@@ -18,6 +18,9 @@ $(document).ready(function() {
             json.feed.entry[i].gsx$header.$t +
             '" class="header img-responsive">'
         );
+        $("#gsContent").append(
+          '<p class="content">' + json.feed.entry[i].gsx$body.$t + '</p>'
+        );
       }
       $("#display").DataTable({
         data: gSheetArray,
