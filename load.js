@@ -22,10 +22,10 @@ $(document).ready(function() {
           '<p class="content">' + json.feed.entry[i].gsx$body.$t + '</p>'
         );
       }
-      $("#display").DataTable({
+      /*$("#display").DataTable({
         data: gSheetArray,
         columns: [{ title: "headline" }, { title: "header" }, { title: "body" }]
-      });
+      });*/
     }
   );
 });
