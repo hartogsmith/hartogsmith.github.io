@@ -19,7 +19,7 @@ $(document).ready(function() {
             '" class="header img-responsive">'
         );
         $("#gsContent").append(
-          '<div class="content">' + json.feed.entry[i].gsx$body.$h + '</div>'
+          '<div class="content">' + json.feed.entry[i].gsx$body + '</div>'
         );
         $("#gsContent").append(
           '<div class="content">' + json.feed.entry[i].gsx$body.$html + '</div>'
