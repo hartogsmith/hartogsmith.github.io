@@ -1,6 +1,3 @@
-/* Coded by Eren SOYLU @ 2016 
-This frontend aims getting data from Google Spreadsheets with .getJSON method and uses that data in jQuery DataTables
-*/
 $(document).ready(function() {
   var gSheetArray = [];
   $.getJSON(
