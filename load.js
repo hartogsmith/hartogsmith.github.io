@@ -19,7 +19,7 @@ $(document).ready(function() {
             '" class="header img-responsive">'
         );
         $("#gsContent").append(
-          '<p class="content">' + json.feed.entry[i].gsx$body.$t + '</p>'
+          '<div class="content">' + json.feed.entry[i].gsx$body.$t + '</div>'
         );
       }
       /*$("#display").DataTable({
